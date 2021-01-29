@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="img/task-done.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>ToDo List</title>
+</head>
+<body>
+    <nav id='nav'>
+    </nav>
+    <div class="container">
+        <div class="baris col-12">
+            <h1>TO DO LIST</h1>
+            <div class="border1">
+                <p><i>“Sometimes our stop-doing list needs to be bigger than our to-do list.” </i></p>
+            </div>
+        </div>
+        <div>
+            <div class="baris">
+                <div class="card">
+                    <img src="img/Reading.jpeg" alt="reading" style="width: 100%;">
+                    <div class="card-container">
+                        <p>Improve yourself</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Working.jpeg" alt="working" style="width: 100%;">
+                    <div class="card-container">
+                        <p>Stop talking, start doing</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/PlayMusic.jpeg" alt="playMusic" style="width: 100%;">
+                    <div class="card-container">
+                        <p>Music can heal the wounds, that medicine cannot touch</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="baris">
+            <div>
+                <input id="input" type="text" placeholder="Tulis sesuatu untuk dikerjakan..." maxlength="30">
+                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+            </div>
+        </div>
+
+        <!-- EMPTY LIST -->
+        <div class="baris">
+            <div class="listItems space">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

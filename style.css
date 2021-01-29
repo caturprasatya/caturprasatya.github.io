@@ -1,0 +1,140 @@
+* {
+    margin: 0PX;
+    padding: 0PX;
+}
+
+body {
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('img/pattern.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#nav {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #1a508b;
+    border-radius: 0  0 30px 30px ;
+}
+
+.container {
+    position: relative;
+    font-family: 'Cinzel', serif;
+    background-color: #f4f5db;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 82%;
+    top: 20px;
+    height: auto;
+}
+
+.baris {
+    margin: 27px 0;
+}
+
+
+.card {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(95, 94, 94, 0.2);
+  }
+
+input { 
+    border-radius: 10px;
+    padding: 9px; 
+    border: solid 1px #E5E5E5; 
+    outline: 0; 
+    font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+    width: 500px; 
+    background: #FFFFFF left top repeat-x; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+} 
+   
+   
+input:hover, input:focus {
+    border-color: #C9C9C9; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px; 
+} 
+
+#enter {
+    border: none;
+    height: 36px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #04A1BF;
+	background-color: #d3e0ea;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #02798F;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+    margin: 20px 10% 0 10%
+}
+
+
+li {
+    font-family: 'Gochi Hand', cursive;
+	list-style: none;
+	padding: 10px 20px;
+	color: #252525;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 20px 0 20px 0;
+	margin-bottom: 10px;
+	background: #f0e5d8;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
